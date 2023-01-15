@@ -81,8 +81,8 @@ Media query style
     .experience{
         padding: 20px 22px;
         position: absolute;
-        bottom: 0;
         left: 50%;
+        top: 500%;
         transform: translate(-50%,-5%);
         width: 80%;
     }
@@ -110,4 +110,7 @@ Media query style
        row-gap: 20px;
         
     }
+
+    /* footer section  */
+    
 }

@@ -141,7 +141,7 @@ nav{
    
     margin-top: 80px;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
 
 .items > .section-header {
@@ -160,11 +160,11 @@ nav{
 .experience{
     color: white;
     background-color: #FF900E;
-    padding:40px 35px;
+    padding:30px 25px;
     border-radius: 8px;
-    position: relative;
-    left: 0;
-    bottom: 0;
+    position: absolute;
+    left: 50%;
+    top: 420%;
 }
 
 .service{
@@ -183,24 +183,29 @@ nav{
     font-size: 25px;
     text-align: center;
 }
-.experience h1{
-    font-size: 65px;
+.experience .button-primary{
+    font-size: 35px;
     font-weight: 700;
+    text-align: center;
 }
 
 /* Facts Section */
-* 
-facts design
-*/
+
 
 .facts{
     margin-top: 80px;
 }
-.facts .container .section-title{
-    text-align: left;
+.facts-section-title h2{
+    font-size: 45px;
+    font-weight: 700;
 }
-.section-title p{
+.facts-section-title p{
     margin: 20px;
+    font-weight: 400;
+font-size: 16px;
+
+color: #727272;
+
 }
 .about-fact{
     margin-top: 80px;
@@ -253,4 +258,13 @@ footer{
 .footer-text{
     font-size:20px;
     color: #424242;
+}
+.contact h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242;
+    margin: 10px 0;
+}
+.contact a i{
+   margin-bottom: 20px;
 }
