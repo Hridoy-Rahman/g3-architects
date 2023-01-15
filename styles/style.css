@@ -160,11 +160,11 @@ nav{
 .experience{
     color: white;
     background-color: #FF900E;
-    padding:30px 25px;
+    /* padding:30px 25px; */
     border-radius: 8px;
     position: absolute;
     left: 50%;
-    top: 420%;
+    top: 580%;
 }
 
 .service{
