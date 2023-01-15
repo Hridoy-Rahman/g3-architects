@@ -1,0 +1,113 @@
+/* 
+Media query style
+*/
+
+/* small device */
+
+@media only screen and (max-width:576px){
+    :root{
+        --h1-fs:30px;
+        --h2-fs:22px;
+        --h3-fs:18px;
+        --p-fs:22px;
+
+    --footer-fs:16px;
+    }
+    *{
+        margin: 0 auto;
+    }
+    .section-title{
+        width: 100%;
+    }
+    .button-primary{
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+    .container{
+        width: 90%;
+    }
+    nav{
+        padding: 30px 0;
+    }
+    nav .name{
+        font-size: 20px;
+    }
+    .nav ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .banner-text h1{
+        font-size: 45px;
+    }
+    
+
+    /* feature section*/
+
+
+    .feature-section,
+    .services,
+    .facts
+    {
+        margin-top: 40px;
+    }
+    .feature-section{
+        text-align: center;
+    }
+    .feature{
+        flex-direction: column-reverse;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+    }
+
+    /* Service design */
+    .service-details{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0px;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .service > p {
+        font-size: 14px;
+    }
+    .item{
+        padding: 20px;
+        margin: 10px 0 0;
+    }
+
+    .experience{
+        padding: 20px 22px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,-5%);
+        width: 80%;
+    }
+    .experience .experience-description {
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    /* fact Section */
+
+    .about-fact{
+        margin-top: 40px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* sponsors section*/
+
+
+    .sponsors{
+        margin: 40px 0;
+    }
+    .sponsor{
+        grid-template-columns: repeat(1, 1fr);
+       row-gap: 20px;
+        
+    }
+}
